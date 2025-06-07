@@ -25,7 +25,7 @@ def webhook():
     return "OK", 200
 
 # إعدادات البوت
-TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN')
+TOKEN = os.environ.get('7568313512:AAEoyr1KDAYvB37yg1r1pKRZivvQkObbvR8')
 ADMIN_IDS = [int(x) for x in os.environ.get('ADMIN_IDS', '').split(',') if x]
 
 # إعداد التسجيل
